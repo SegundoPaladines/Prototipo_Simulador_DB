@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Simulador_Base_De_Datos",
+            "request": "launch",
+            "mainClass": "Simulador_Base_De_Datos",
+            "vmArgs": "--module-path C:\\Users\\Asus-PC\\javafx-sdk-16\\lib --add-modules=javafx.controls,javafx.fxml",
+            "projectName": "Prototipo Simulador Motor Base De Datos_9310d51"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "vmArgs": "--module-path ${env:PATH_TO_FX} --add-modules javafx.controls",
+            "mainClass": "${file}"
+        }
+    ]
+}

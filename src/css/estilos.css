@@ -1,0 +1,52 @@
+root { 
+    display: block;
+}
+
+#ejecutar{
+    -fx-background-color: #0d0d0e;
+    -fx-border-color: #b31313;
+    -fx-border-width: 4px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+#ejecutar:hover{
+    -fx-background-color: #1515b6;
+    -fx-border-color: #b31313;
+    -fx-border-width: 4px;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+#ejecutar:active{
+    -fx-background-color: #941212;
+    -fx-border-color: #000000;
+    -fx-border-width: 4px;
+    -fx-text-fill: #050505;
+    -fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+#editor{
+    -fx-background-color: #0d0d0e;
+    -fx-text-fill: #0d0d0e;
+    fx-font-family: "Times New Roman";
+    -fx-font-style: italic;
+    -fx-font-size: 20px;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-radius: 10 10 10 10;
+}
+#encabezado{
+    -fx-background-color:#7ea8ec; 
+    -fx-text-fill: rgb(0, 0, 0); 
+    -fx-font-family: 'digital display tfb'; 
+    -fx-font-size: 2em;
+}
